@@ -24,6 +24,6 @@ git clone  --depth=1  https://github.com/sbwml/luci-app-alist package/alist
 #chmod -R 755 files
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 #golang19
-rm -rf feeds/packages/lang/golang
+#rm -rf feeds/packages/lang/golang
 # svn export https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
-git clone --depth=1 https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
+#git clone --depth=1 https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
